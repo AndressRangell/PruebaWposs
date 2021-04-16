@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".view.MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/white"
+            android:src="@drawable/icon_points"
+            android:onClick="menu"/>
+
+        <TextView
+            android:id="@+id/titleProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/menu"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/payCard"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnPayCard"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/card"
+                android:onClick="payCard"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="110dp"
+                android:gravity="center_horizontal"
+                android:text="@string/card"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/payCash"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="230dp">
+
+            <ImageButton
+                android:id="@+id/btnPayCash"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/cash"
+                android:onClick="payCash"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="110dp"
+                android:gravity="center_horizontal"
+                android:text="@string/cash"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/deposit"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="50dp">
+
+            <ImageButton
+                android:id="@+id/btnDeposit"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/deposit"
+                android:onClick="deposit"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="110dp"
+                android:gravity="center_horizontal"
+                android:text="@string/deposit"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/drawal"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="230dp">
+
+            <ImageButton
+                android:id="@+id/btnDrawal"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/drawal"
+                android:onClick="drawal"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="110dp"
+                android:gravity="center_horizontal"
+                android:text="@string/drawal"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/history"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginLeft="50dp">
+
+            <ImageButton
+                android:id="@+id/btnHistory"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/history"
+                android:onClick="history"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="110dp"
+                android:gravity="center_horizontal"
+                android:text="@string/history"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/report"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginLeft="230dp">
+
+            <ImageButton
+                android:id="@+id/btnReport"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/report"
+                android:onClick="report"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="110dp"
+                android:gravity="center_horizontal"
+                android:text="@string/report"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/perfil"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="50dp">
+
+            <ImageButton
+                android:id="@+id/btnPerfil"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/profile"
+                android:onClick="perfil"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="110dp"
+                android:gravity="center_horizontal"
+                android:text="@string/profile"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/logout"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="230dp">
+
+            <ImageButton
+                android:id="@+id/btnLogout"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/logout"
+                android:onClick="logout"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="110dp"
+                android:gravity="center_horizontal"
+                android:text="@string/exit"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="650dp"
+            android:layout_marginHorizontal="120dp"
+            android:text="@string/autor_version"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

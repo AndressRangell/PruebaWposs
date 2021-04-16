@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.javaya.pruebawposs">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".view.HistoryActivity"></activity>
+        <activity android:name=".view.ReportActivity" />
+        <activity android:name=".view.DrawalActivity" />
+        <activity android:name=".view.DepositActivity" />
+        <activity android:name=".view.PayCashActivity" />
+        <activity android:name=".view.SuccesfulActivity" />
+        <activity android:name=".view.FailedActivity" />
+        <activity android:name=".view.ConfirmationActivity" />
+        <activity android:name=".view.PayCardActivity" />
+        <activity android:name=".view.ListUsersActivity" />
+        <activity android:name=".view.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.ProfileActivity" />
+        <activity android:name=".view.MainActivity" />
+        <activity android:name=".view.AddUserActivity" />
+        <activity android:name=".view.AdminActivity" />
+    </application>
+
+</manifest>
