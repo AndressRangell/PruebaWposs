@@ -21,6 +21,6 @@ saldo inicial: 5000
 ![](img/listaUsuarios.jpeg)
 ![](img/menuUsuario.jpeg)
 ![](img/pagos.jpeg)
-![](img/transaccion.jpeg)
+![](img/Transaccion.jpeg)
 ![](img/respuestaTransaccion.jpeg)
 ![](img/historial.jpeg)
